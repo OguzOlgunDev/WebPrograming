@@ -13,7 +13,7 @@ var level = 1;
 
 // This function chosing a random colour for the game pattern
 function nextSequence(){
-  var randomNumber = Math.floor(Math.random() * 3);
+  var randomNumber = Math.floor(Math.random() * 4);
   randomChosenColor = buttonColours[randomNumber];
   return randomChosenColor;
 }
